@@ -182,6 +182,7 @@ button {
 .second-heading { 
     font-size: 18px;
     font-weight: 600px;
+    background: none;
 }
 .filters { 
     display: flex;
