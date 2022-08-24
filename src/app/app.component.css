@@ -171,6 +171,8 @@ button {
     background-color: transparent;
     animation: fade-up 4s 0.7s forwards ;
     padding: 0px 50px;
+    
+    
 }
 .top { 
     display: flex;
