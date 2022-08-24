@@ -100,5 +100,7 @@ export class AppComponent {
     }
   }
 
+  
+
   // fadeEl = document.querySelector('.fade');
 }
