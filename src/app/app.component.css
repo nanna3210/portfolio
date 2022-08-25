@@ -177,8 +177,16 @@ button {
 .wrapper { 
     width: 700px;
     margin: auto;
-    background-color: transparent;
+    /* background-color: transparent; */
+    top: 500px;
+    /* position: absolute; */
+    /* left: 0px; */
+    /* animation: mymove 3s 2s forwards; */
 }
+@keyframes mymove {
+    0%{transform: rotate(0deg);}
+    100% {transform: rotate(90deg);}
+  }
 .bg_transparent{ 
     background-color: transparent;
 }
