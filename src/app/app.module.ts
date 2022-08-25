@@ -4,11 +4,14 @@ import { BrowserModule } from '@angular/platform-browser';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
-import { NannaMateComponent } from './maty/nanna-mate/nanna-mate.component';
+
 import { MatModule } from './app-module/mat.module';
+import { HeaderMatComponent } from './maty/header-mat/header-mat.component';
+import { FooterMatComponent } from './maty/footer-mat/footer-mat.component';
+import { MatyAllComponent } from './maty/maty-all/maty-all.component';
 
 @NgModule({
-  declarations: [AppComponent, NannaMateComponent],
+  declarations: [AppComponent,  HeaderMatComponent, FooterMatComponent, MatyAllComponent],
   imports: [
     BrowserModule,
     MatModule,

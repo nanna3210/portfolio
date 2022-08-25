@@ -1,20 +1,20 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { NannaMateComponent } from './nanna-mate.component';
+import { MatyAllComponent } from './maty-all.component';
 
-describe('NannaMateComponent', () => {
-  let component: NannaMateComponent;
-  let fixture: ComponentFixture<NannaMateComponent>;
+describe('MatyAllComponent', () => {
+  let component: MatyAllComponent;
+  let fixture: ComponentFixture<MatyAllComponent>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [ NannaMateComponent ]
+      declarations: [ MatyAllComponent ]
     })
     .compileComponents();
   });
 
   beforeEach(() => {
-    fixture = TestBed.createComponent(NannaMateComponent);
+    fixture = TestBed.createComponent(MatyAllComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });

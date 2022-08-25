@@ -1,0 +1,20 @@
+<div class="content">
+    <div class="row">
+        
+            <mat-card class="d-flex" color="warn">
+                <button mat-raised-button color="primary"> Work </button>
+                <button mat-raised-button color="accent"> resume </button>
+                <button mat-flat-button color="warn">Go to</button>
+                <button mat-icon-button color="" class="ncolor1">
+                    <mat-icon  style="font-size: 35px;">star</mat-icon>
+                </button>
+                <mat-button-toggle-group #group="matButtonToggleGroup" color="primary">
+
+                <mat-button-toggle  value="bold"><strong>Bold</strong></mat-button-toggle>
+                <mat-button-toggle  value="normal">usual</mat-button-toggle>
+            </mat-button-toggle-group>
+                {{group.value}}
+            </mat-card>
+        
+    </div>
+</div>
