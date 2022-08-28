@@ -19,7 +19,8 @@ const material =[
   MatListModule, 
   MatDividerModule, 
   MatCardModule, 
-  MatButtonToggleModule, MatBadgeModule
+  MatButtonToggleModule, 
+  MatBadgeModule
 
 
 ]
