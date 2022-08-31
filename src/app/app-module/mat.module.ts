@@ -8,6 +8,7 @@ import {MatDividerModule} from '@angular/material/divider';
 import {MatCardModule} from '@angular/material/card';
 import {MatButtonToggleModule} from '@angular/material/button-toggle';
 import {MatBadgeModule} from '@angular/material/badge';
+import {MatTabsModule} from '@angular/material/tabs';
 
 
 const material =[
@@ -20,7 +21,8 @@ const material =[
   MatDividerModule, 
   MatCardModule, 
   MatButtonToggleModule, 
-  MatBadgeModule
+  MatBadgeModule,
+  MatTabsModule
 
 
 ]
