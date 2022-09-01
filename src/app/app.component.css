@@ -91,9 +91,14 @@ a {
     z-index: 1;
     transition: 1s;
     animation: fade-down 2s 0.7s backwards;
-    /* margin-left: 20px; */
+    margin-right: 0px;
+    color: #fff;
+
+    
+    
 
 }
+
 .btn:hover { 
     transform: scale(1.40);
 }
