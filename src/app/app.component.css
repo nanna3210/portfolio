@@ -112,11 +112,12 @@ a {
     max-width: 1000px;
     margin: 0 auto ;
     height: 800px;
+    /* position: fixed; */
     font-family: 'Quicksand', sans-serif;
     /* color: rgb(207, 9, 9); */
-    padding: 0px 50px;
+    padding: 0px 80px;
     /* background-color: red; */
-    background-color: transparent;
+    /* background-color: transparent; */
     text-align: center;
     background-image: radial-gradient(closest-side, rgba(91, 66, 124, 0.664), #0000);
     /* z-index: 12; */
