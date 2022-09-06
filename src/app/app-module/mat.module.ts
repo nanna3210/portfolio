@@ -9,6 +9,7 @@ import {MatCardModule} from '@angular/material/card';
 import {MatButtonToggleModule} from '@angular/material/button-toggle';
 import {MatBadgeModule} from '@angular/material/badge';
 import {MatTabsModule} from '@angular/material/tabs';
+import {MatChipsModule} from '@angular/material/chips';
 
 
 
@@ -23,7 +24,8 @@ const material =[
   MatCardModule, 
   MatButtonToggleModule, 
   MatBadgeModule,
-  MatTabsModule
+  MatTabsModule, 
+  MatChipsModule
 
 
 ]
