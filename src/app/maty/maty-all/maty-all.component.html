@@ -37,10 +37,34 @@
         <mat-tab label="Second">Content 2</mat-tab>
         <mat-tab label="Third">Content 3</mat-tab>
       </mat-tab-group>
-      <mat-chip-list aria-label="Fish selection">
-        <mat-chip>One fish</mat-chip>
-        <mat-chip>Two fish</mat-chip>
-        <mat-chip color="primary" selected>Primary fish</mat-chip>
-        <mat-chip color="accent" selected>Accent fish</mat-chip>
-      </mat-chip-list>
-</div>
+      <!-- exaample strats here  -->
+      <div class="example-button-container">
+        <button mat-raised-button (click)="formControl.disable()">Disable form control</button>
+        <button mat-raised-button (click)="formControl.enable()">Enable form control</button>
+      </div>
+      
+      <p>
+        <i>Select a focused chip by pressing <code>SPACE</code></i>
+      </p>
+      
+      <mat-form-field class="example-chip-list" appearance="fill">
+        <mat-label>Video keywords</mat-label>
+        <mat-chip-list #chipList aria-label="Video keywords" multiple [formControl]="formControl">
+          <mat-chip
+              *ngFor="let keyword of keywords"
+              [selected]="keyword"
+              [value]="keyword"
+              (removed)="removeKeyword(keyword)">
+            {{keyword}}
+          </mat-chip>
+          <input
+            placeholder="New keyword..."
+            [matChipInputFor]="chipList"
+            (matChipInputTokenEnd)="addKeywordFromInput($event)">
+        </mat-chip-list>
+      </mat-form-field>
+      
+      <p>
+        <b>The following keywords are selected:</b> {{formControl.value}}
+      </p>
+    </div>

@@ -10,6 +10,8 @@ import {MatButtonToggleModule} from '@angular/material/button-toggle';
 import {MatBadgeModule} from '@angular/material/badge';
 import {MatTabsModule} from '@angular/material/tabs';
 import {MatChipsModule} from '@angular/material/chips';
+import { MatFormFieldModule } from '@angular/material/form-field';
+
 
 
 
@@ -25,7 +27,8 @@ const material =[
   MatButtonToggleModule, 
   MatBadgeModule,
   MatTabsModule, 
-  MatChipsModule
+  MatChipsModule, 
+  MatFormFieldModule
 
 
 ]

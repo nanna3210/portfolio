@@ -17,6 +17,7 @@ import { MatyAllComponent } from './maty/maty-all/maty-all.component';
     MatModule,
     AppRoutingModule,
     BrowserAnimationsModule,
+
   ],
   providers: [],
   bootstrap: [AppComponent],
