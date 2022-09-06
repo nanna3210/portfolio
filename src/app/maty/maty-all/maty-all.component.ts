@@ -10,20 +10,7 @@ import {MatChipInputEvent} from '@angular/material/chips';
 export class MatyAllComponent implements OnInit {
 
   constructor() { }
-  keywords = new Set(['angular', 'how-to', 'tutorial']);
-  formControl = new FormControl(['angular']);
-
-  addKeywordFromInput(event: MatChipInputEvent) {
-    if (event.value) {
-      this.keywords.add(event.value);
-      event.chipInput!.clear();
-    }
-  }
-
-  removeKeyword(keyword: string) {
-    this.keywords.delete(keyword);
-  }
-
+  
   ngOnInit(): void {
   }
 
