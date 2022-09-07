@@ -10,7 +10,7 @@ import {MatChipInputEvent} from '@angular/material/chips';
 export class MatyAllComponent implements OnInit {
 
   constructor() { }
-  
+  panelOpenState :boolean = false ; 
   ngOnInit(): void {
   }
 

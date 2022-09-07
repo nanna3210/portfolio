@@ -12,6 +12,7 @@ import {MatTabsModule} from '@angular/material/tabs';
 import {MatChipsModule} from '@angular/material/chips';
 import { MatFormFieldModule } from '@angular/material/form-field';
 import {MatDatepickerModule} from '@angular/material/datepicker';
+import {MatExpansionModule} from '@angular/material/expansion';
 
 
 
@@ -31,7 +32,8 @@ const material =[
   MatTabsModule, 
   MatChipsModule, 
   MatFormFieldModule, 
-  MatDatepickerModule  
+  MatDatepickerModule, 
+  MatExpansionModule  
 
 
 ]
