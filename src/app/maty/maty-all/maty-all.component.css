@@ -29,5 +29,7 @@
     
 }
 .tabDesc { 
-    text-align: center;
+    margin: auto;
+    background-color: red;
+    
 }
