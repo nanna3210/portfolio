@@ -89,7 +89,6 @@ export class AppComponent {
       projectEl2.style.transform = 'scale(1)';
       projectEl3.style.opacity = '1';
       projectEl3.style.transform = 'scale(1)';
-
       projectEl4.style.opacity = '1';
       projectEl4.style.transform = 'scale(1)';
       projectEl5.style.opacity = '1';
