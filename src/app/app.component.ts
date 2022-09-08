@@ -89,12 +89,15 @@ export class AppComponent {
       projectEl2.style.transform = 'scale(1)';
       projectEl3.style.opacity = '1';
       projectEl3.style.transform = 'scale(1)';
+      // projectEl1.style.transform = 'translate(470px)';
+      projectEl3.style.transform = 'translate(570px)';
       projectEl4.style.opacity = '1';
       projectEl4.style.transform = 'scale(1)';
       projectEl5.style.opacity = '1';
       projectEl5.style.transform = 'scale(1)';
       projectEl6.style.opacity = '1';
       projectEl6.style.transform = 'scale(1)';
+      
     } else if (element === 'FrontEnd') {
       projectEl1.style.opacity = '0';
       projectEl1.style.transform = 'scale(0)';
@@ -104,8 +107,9 @@ export class AppComponent {
       projectEl5.style.transform = 'scale(0)';
       projectEl6.style.opacity = '0';
       projectEl6.style.transform = 'scale(0)';
-
-      // projectEl3.style.transform = 'translateX(-350)';
+      projectEl4.style.transform = 'translateY(-400px)'
+      projectEl4.style.transform = 'translateX(100px)'
+      projectEl3.style.transform = 'translateX(350px)';
       projectEl3.style.gridColumn = '1/2';
     } else if (element === 'BackEnd') {
     } else if (element === 'FullStack') {
