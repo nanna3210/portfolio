@@ -1,5 +1,5 @@
 import { DOCUMENT } from '@angular/common';
-import { elementEventFullName } from '@angular/compiler/src/view_compiler/view_compiler';
+// import { elementEventFullName } from '@angular/compiler/src/view_compiler/view_compiler';
 import { Component, HostListener, ViewChild, ElementRef } from '@angular/core';
 import { Work } from './models/Work';
 
@@ -107,9 +107,10 @@ export class AppComponent {
       projectEl5.style.transform = 'scale(0)';
       projectEl6.style.opacity = '0';
       projectEl6.style.transform = 'scale(0)';
-      projectEl4.style.transform = 'translateY(-400px)'
-      projectEl4.style.transform = 'translateX(100px)'
-      projectEl3.style.transform = 'translateX(350px)';
+      projectEl4.style.transform = 'translate(500px , -450px) scale(1)'
+      // projectEl4.style.gridColumn = '1/3';
+      // projectEl4.style.transform = 'translateX(500px)'
+      projectEl3.style.transform = 'translateX(150px) scale(1)';
       projectEl3.style.gridColumn = '1/2';
     } else if (element === 'BackEnd') {
     } else if (element === 'FullStack') {
