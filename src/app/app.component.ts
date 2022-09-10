@@ -90,7 +90,7 @@ export class AppComponent {
       projectEl3.style.opacity = '1';
       projectEl3.style.transform = 'scale(1)';
       // projectEl1.style.transform = 'translate(470px)';
-      projectEl3.style.transform = 'translate(570px)';
+      // projectEl3.style.transform = 'translate(570px)';
       projectEl4.style.opacity = '1';
       projectEl4.style.transform = 'scale(1)';
       projectEl5.style.opacity = '1';
@@ -107,12 +107,35 @@ export class AppComponent {
       projectEl5.style.transform = 'scale(0)';
       projectEl6.style.opacity = '0';
       projectEl6.style.transform = 'scale(0)';
-      projectEl4.style.transform = 'translate(500px , -450px) scale(1)'
+      // projectEl4.style.transform = 'translate(500px , -450px) scale(1)'
       // projectEl4.style.gridColumn = '1/3';
       // projectEl4.style.transform = 'translateX(500px)'
-      projectEl3.style.transform = 'translateX(150px) scale(1)';
-      projectEl3.style.gridColumn = '1/2';
+      // projectEl3.style.transform = 'translateX(150px) scale(1)';
+      // projectEl3.style.gridColumn = '1/2';
+      projectEl3.style.opacity = '1';
+      projectEl3.style.transform = 'translateX(-550px)'; 
+      projectEl4.style.opacity = '1';
+      projectEl4.style.transform = 'translate(425px, -500px)'; 
     } else if (element === 'BackEnd') {
+
+      projectEl1.style.opacity = '0';
+      projectEl1.style.transform = 'scale(0)';
+      projectEl2.style.opacity = '0';
+      projectEl2.style.transform = 'scale(0)';
+      projectEl3.style.opacity = '0';
+      projectEl3.style.transform = 'scale(0)';
+      // projectEl1.style.transform = 'translate(470px)';
+      // projectEl3.style.transform = 'translate(570px)';
+      projectEl4.style.opacity = '0';
+      projectEl4.style.transform = 'scale(0)';
+      // projectEl5.style.opacity = '1';
+      // projectEl5.style.transform = 'scale(1)';
+      // projectEl6.style.opacity = '1';
+      // projectEl6.style.transform = 'scale(1)';
+      projectEl5.style.transform ='translate(-200px , -300px )';
+      projectEl5.style.opacity = '1'; 
+      projectEl6.style.transform = 'translate(-125px, -445px)'; 
+      projectEl6.style.opacity = '1';
     } else if (element === 'FullStack') {
     }
   }
