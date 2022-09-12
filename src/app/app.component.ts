@@ -24,7 +24,7 @@ export class AppComponent {
     {
       workHeading: 'Api Developer',
       workDescription: 'A backend Developer for Creating API  ',
-      imageUrl: '../assets/spring.png',
+      imageUrl: '../assets/postman.jpg',
       technologies: ['Postman', 'Kafka', 'Springboot', 'java'],
     },
     {
@@ -49,7 +49,7 @@ export class AppComponent {
     {
       workHeading: 'HealthCare',
       workDescription: 'Health Care Application   ',
-      imageUrl: '../assets/professional.jpg',
+      imageUrl: '../assets/coding-lap.jpg',
       technologies: [
         'css',
         'typescript',
