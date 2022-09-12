@@ -18,38 +18,38 @@ export class AppComponent {
     {
       workHeading: 'Remote Dev',
       workDescription: 'Full stack Remote Developer Job ',
-      imageUrl: '../assets/nanna.jpg',
+      imageUrl: '../assets/coder.jpg',
       technologies: ['html', 'css', 'typescript', 'java'],
     },
     {
       workHeading: 'Api Developer',
       workDescription: 'A backend Developer for Creating API  ',
-      imageUrl: '../assets/nanna.jpg',
+      imageUrl: '../assets/spring.png',
       technologies: ['Postman', 'Kafka', 'Springboot', 'java'],
     },
     {
       workHeading: 'UTSAV',
       workDescription: 'Event mangement Company  ',
-      imageUrl: '../assets/nanna.jpg',
+      imageUrl: '../assets/angular.jpg',
       technologies: ['css', 'typescript', 'java', 'Angular', 'bootstrap'],
     },
 
     {
       workHeading: 'E Commerrce Platform ',
       workDescription: 'E commerce platform for garments Apparels  ',
-      imageUrl: '../assets/nanna.jpg',
+      imageUrl: '../assets/flower Dev.jpg',
       technologies: ['css', 'javascript', 'java', 'Angular', 'tailwind'],
     },
     {
       workHeading: 'Inventory Management',
       workDescription: 'worked For an inventory Management application ',
-      imageUrl: '../assets/nanna.jpg',
+      imageUrl: '../assets/developer.jpg',
       technologies: ['css', 'Angular', 'spring', 'PHP ', 'bootsrap'],
     },
     {
       workHeading: 'HealthCare',
       workDescription: 'Health Care Application   ',
-      imageUrl: '../assets/nanna.jpg',
+      imageUrl: '../assets/professional.jpg',
       technologies: [
         'css',
         'typescript',
