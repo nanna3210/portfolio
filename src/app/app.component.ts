@@ -17,7 +17,7 @@ export class AppComponent {
   data: Work[] = [
     {
       workHeading: 'Remote Dev',
-      workDescription: 'Full stack Remote Developer Job ',
+      workDescription: 'Full stack Remote Developer ',
       imageUrl: '../assets/coder.jpg',
       technologies: ['html', 'css', 'typescript', 'java'],
     },
