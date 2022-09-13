@@ -9,6 +9,7 @@ import { Work } from './models/Work';
   styleUrls: ['./app.component.css'],
 })
 export class AppComponent {
+
   title = 'portfolio';
 
   @ViewChild('fadeIn') fadeIn: ElementRef | undefined;
@@ -59,6 +60,8 @@ export class AppComponent {
       ],
     },
   ];
+
+  
   fading(event: Event) {
     const element = (event.target as HTMLAnchorElement).innerHTML;
     // console.log(element);
@@ -82,7 +85,9 @@ export class AppComponent {
     ) as HTMLDivElement;
     console.log(projectEl3);
 
-    if (element === 'All') {
+
+   
+  if (element === 'All') {
       projectEl1.style.opacity = '1';
       projectEl1.style.transform = 'scale(1)';
       projectEl2.style.opacity = '1';
@@ -147,6 +152,8 @@ export class AppComponent {
       projectEl6.style.opacity = '0';
     }
   }
+ 
+
 
   // fadeEl = document.querySelector('.fade');
 }
