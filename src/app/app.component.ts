@@ -60,7 +60,7 @@ export class AppComponent {
     },
   ];
   fading(event: Event) {
-    const element = (event.target as HTMLAnchorElement).innerHTML;
+    let element = (event.target as HTMLAnchorElement).innerHTML;
     // console.log(element);
     const projectEl1 = document.querySelector(
       '.project:nth-child(1)'
