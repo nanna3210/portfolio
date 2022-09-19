@@ -297,6 +297,10 @@ button {
     cursor: pointer;
     transition: 1s;
 }
+.filter-btn a:hover { 
+
+    color: rgb(18, 189, 18);
+}
 
 .filter-btn:hover {
     opacity: 1;
@@ -461,12 +465,11 @@ button {
 }
 .copyright{
     color:white;
-    letter-spacing: 4px;
+    letter-spacing: 5px;
     font-weight: 500;
     font-size: 14px;
     font-family: 'Pacifico', cursive;
-    /* font-family: 'Smooch', cursive; */
-    /* font-family: ;  */
+    
 
 }
 .footer { 
