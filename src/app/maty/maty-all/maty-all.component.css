@@ -33,3 +33,9 @@
     background-color: red;
     
 }
+.mat-tab-group { 
+    margin-bottom: 40px;
+    border-radius: 7px;
+    background-color: rgb(9, 15, 63);
+    color: white;
+}
