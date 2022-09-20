@@ -36,6 +36,7 @@
 .mat-tab-group { 
     margin-bottom: 40px;
     border-radius: 7px;
-    background-color: rgb(9, 15, 63);
-    color: white;
+    background-image: linear-gradient(to top, rgb(45, 26, 131), transparent);
+    color: rgb(192, 31, 31);
+    font-weight: 800;
 }
