@@ -23,7 +23,7 @@ export class MatyAllComponent implements OnInit {
   panelOpenState :boolean = false ;
 
   availableColors: ChipColor[] =[
-    {name:'none' , color:undefined},
+    {name:'Rest API' , color:undefined},
     {name:'Spring boot', color:'primary'}, 
     {name:'Angular', color:'accent'}, 
     {name:'BootStrap', color:'warn'}
