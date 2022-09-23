@@ -23,10 +23,16 @@ export class MatyAllComponent implements OnInit {
   panelOpenState :boolean = false ;
 
   availableColors: ChipColor[] =[
-    {name:'Rest API' , color:undefined},
+    {name:'Rest API' , color:'warn'},
     {name:'Spring boot', color:'primary'}, 
+    {name:'Spring MVC', color:'accent'}, 
+    {name:'Hibernate', color:'warn'}, 
     {name:'Angular', color:'accent'}, 
-    {name:'BootStrap', color:'warn'}
+    {name:'BootStrap', color:'primary'},
+    {name:'JAVA', color:'warn'},
+    {name:'typescript', color:'accent'},
+    {name:'Github', color:'primary'},
+    {name:'Mysql', color:'warn'}    
   ];
 
   ngOnInit(): void {
