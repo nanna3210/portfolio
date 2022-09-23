@@ -21,12 +21,13 @@ export class MatyAllComponent implements OnInit {
 
   constructor() { }
   panelOpenState :boolean = false ;
-  availableColors: ChipColor[] = [
-    {name: 'none', color: undefined},
-    {name: 'Primary', color: 'primary'},
-    {name: 'Accent', color: 'accent'},
-    {name: 'Warn', color: 'warn'},
-  ]; 
+
+  availableColors: ChipColor[] =[
+    {name:'none' , color:undefined},
+    {name:'Spring boot', color:'primary'}, 
+    {name:'Angular', color:'accent'}, 
+    {name:'BootStrap', color:'warn'}
+  ];
 
   ngOnInit(): void {
   }
