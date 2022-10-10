@@ -9,8 +9,12 @@ import {ThemePalette} from '@angular/material/core'
 export interface ChipColor {
   name: string;
   color: ThemePalette;
+  // icon:string ; 
 }
-
+// <!-- data_object -->
+// terminal
+// data_array
+// code
 
 @Component({
   selector: 'app-maty-all',

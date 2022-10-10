@@ -38,7 +38,7 @@
 
 
     </div>
-    <mat-tab-group mat-align-tabs="center" class="nanna-tab" dynamicHeight>
+    <mat-tab-group mat-align-tabs="center" class="nanna-tab" dynamicHeight animationDuration="1000ms">
         <mat-tab label="FrontEnd" class="tabDesc">
          <div class="tabText">
           Built an Event-Mangement website with Angular in frontend   with bootstrap and 
@@ -58,7 +58,8 @@
             <h2><strong>Technologies used </strong></h2>
             <mat-chip-list>
                 <mat-chip *ngFor="let chip of availableColors" selected [color]="chip.color">
-                {{chip.name}}
+                  <!-- <mat-icon class="example-tab-icon">api</mat-icon> -->
+                <strong class="tech-used">{{chip.name}}</strong>
                 </mat-chip>
             </mat-chip-list>
             
