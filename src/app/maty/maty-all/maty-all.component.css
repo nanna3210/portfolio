@@ -60,5 +60,10 @@
 }
 .tech-used { 
     /* color: rgb(59, 52, 48);  */
+    /* margin: 104px; */
+    padding: 10px;
 
+}
+.tech-used:hover { 
+    /* scale: ; */
 }
