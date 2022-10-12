@@ -57,9 +57,9 @@
           <div class="tabText">
             <h2><strong>Technologies used </strong></h2>
             <mat-chip-list>
-                <mat-chip *ngFor="let chip of availableColors" selected [color]="chip.color">
+                <mat-chip *ngFor="let chip of availableColors" selected [color]="chip.color" class="tech-used">
                   <!-- <mat-icon class="example-tab-icon">api</mat-icon> -->
-                <strong class="tech-used">{{chip.name}}</strong>
+                <strong class="">{{chip.name}}</strong>
                 </mat-chip>
             </mat-chip-list>
             
