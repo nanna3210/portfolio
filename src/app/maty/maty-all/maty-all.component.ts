@@ -21,12 +21,11 @@ export interface ChipColor {
   selector: 'app-maty-all',
   templateUrl: './maty-all.component.html',
   styleUrls: ['./maty-all.component.css'], 
-  // animations:[trigger('fadeNanna',[transition('void =>*', [
-  //   style({backgroundColor:'tomato', opcaity :0}), 
-  //   animate(2000, style({backgroundColor:"transparent", opacity:1}))
-  // ])]
-
-  // )]
+//   animations:[trigger('fadeNanna',[transition('void =>*', [
+//     style({opcaity :0}), 
+//     animate(2000 )
+//   ])]
+// )]
 })
 export class MatyAllComponent implements OnInit {
 
