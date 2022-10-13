@@ -1,3 +1,4 @@
+import { animate, style, transition, trigger } from '@angular/animations';
 import { Component, OnInit } from '@angular/core';
 import {FormControl} from '@angular/forms';
 import {MatChipInputEvent} from '@angular/material/chips';
@@ -19,7 +20,14 @@ export interface ChipColor {
 @Component({
   selector: 'app-maty-all',
   templateUrl: './maty-all.component.html',
-  styleUrls: ['./maty-all.component.css']
+  styleUrls: ['./maty-all.component.css'], 
+  animations:[trigger('fadeNanna',[transition('void =>*', [
+    style({backgroundColor:'tomato', opcaity :0}), 
+    animate(2000, style({backgroundColor:"transparent", opacity:1}))
+  ])]
+
+
+  )]
 })
 export class MatyAllComponent implements OnInit {
 
