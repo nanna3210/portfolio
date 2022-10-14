@@ -110,7 +110,7 @@ a {
 }
 
 .btn--download {
-    z-index: 1900;
+    z-index: 90;
     transition: 1s;
     animation: fade-down 2s 0.7s backwards;
     bottom: 20px;
@@ -224,6 +224,7 @@ button {
     background-color: transparent;
     animation: fade-up 4s 0.7s forwards;
     padding: 0px 50px;
+    z-index: 100;
 
 
 }
