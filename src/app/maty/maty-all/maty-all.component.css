@@ -60,6 +60,9 @@
 
     
 }
+.tabText h2 { 
+    font-family: monospace;
+}
 .tech-used { 
     /* color: rgb(59, 52, 48);  */
     /* margin: 104px; */
