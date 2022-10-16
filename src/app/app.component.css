@@ -298,7 +298,8 @@ button {
     cursor: pointer;
     transition: 1s;
 }
-.filter-btn a:hover { 
+
+.filter-btn a:hover {
 
     color: rgb(18, 189, 18);
 }
@@ -447,7 +448,7 @@ button {
     font-weight: 600;
     opacity: 0.7;
     background: none;
-}                                                                           
+}
 
 .technologies {
     background: none;
@@ -464,23 +465,27 @@ button {
     margin-bottom: 5px;
     line-height: 17px;
 }
-.copyright{
-    color:white;
+
+.copyright {
+    color: white;
     letter-spacing: 5px;
     font-weight: 500;
     font-size: 14px;
     font-family: 'Pacifico', cursive;
-    
+
 
 }
-.footer { 
+
+.footer {
     /* margin-bottom: 200px; */
     margin-left: 300px;
     /* margin:  auto 200px; */
 }
-.matty{
+
+.matty {
     width: 600px;
 }
+
 .technology {
     /* background: none; */
 }
