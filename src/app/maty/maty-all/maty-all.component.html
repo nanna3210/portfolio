@@ -1,5 +1,6 @@
 <div class="content">
-    <div class="row">
+  <div class="row">
+      <app-matyoption></app-matyoption>
 <!-- 
         <mat-card class="d-flex mat-elevation-z3 " color="warn">
             <button mat-raised-button color="primary" class="mat-elevation-z19"> Work </button>
@@ -59,12 +60,12 @@
             <mat-chip-list>
                 <mat-chip *ngFor="let chip of availableColors" selected [color]="chip.color" class="tech-used">
                   <!-- <mat-icon class="example-tab-icon">api</mat-icon> -->
-                <strong class="">{{chip.name}}</strong>
+                  <strong class="">{{chip.name}}</strong>
                 </mat-chip>
-            </mat-chip-list>
-            
-          </div>
-        </mat-tab>
+              </mat-chip-list>
+              
+            </div>
+          </mat-tab>
       </mat-tab-group>
       <!-- exaample strats here  -->
 
