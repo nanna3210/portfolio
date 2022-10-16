@@ -14,7 +14,7 @@ import { MatFormFieldModule } from '@angular/material/form-field';
 import {MatDatepickerModule} from '@angular/material/datepicker';
 import {MatExpansionModule} from '@angular/material/expansion';
 import { MatIconRegistry } from '@angular/material/icon';
-
+import {MatInputModule} from '@angular/material/input';
 
 
 
@@ -34,7 +34,9 @@ const material =[
   MatChipsModule, 
   MatFormFieldModule, 
   MatDatepickerModule, 
-  MatExpansionModule 
+  MatExpansionModule , 
+  MatInputModule
+
   // MatIconRegistry  ,
 
 
