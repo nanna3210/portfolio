@@ -10,9 +10,10 @@ import { HeaderMatComponent } from './maty/header-mat/header-mat.component';
 import { FooterMatComponent } from './maty/footer-mat/footer-mat.component';
 import { MatyAllComponent } from './maty/maty-all/maty-all.component';
 import { SocialLinksComponent } from './maty/social-links/social-links.component';
+import { MatyoptionComponent } from './maty/matyoption/matyoption.component';
 
 @NgModule({
-  declarations: [AppComponent,  HeaderMatComponent, FooterMatComponent, MatyAllComponent, SocialLinksComponent],
+  declarations: [AppComponent,  HeaderMatComponent, FooterMatComponent, MatyAllComponent, SocialLinksComponent, MatyoptionComponent],
   imports: [
     BrowserModule,
     MatModule,
